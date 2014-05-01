@@ -204,7 +204,7 @@ Intro
 	margin-top: 40px;
 	background-color: rgba(0,0,0,0.7);
 }
-.intro-text h1 a {
+.intro-text h1 {
 	color:#fff;
 	text-align:center;
 	font-weight: 700;
@@ -212,9 +212,6 @@ Intro
 	line-height:1.1em;
 	padding-top:30px;
 	text-transform: uppercase;	
-}
-.intro-text h1 a:hover {
-	text-decoration: none;
 }
 
 .line-spacer {
@@ -225,9 +222,8 @@ Intro
 	border-bottom:1px solid #fff;
 }
 
-.intro-text p span {
+.intro-text p {
 	color:#fff;
-	font-size: 24px;
 	text-align:center;
 	font-weight: 300;
 }
