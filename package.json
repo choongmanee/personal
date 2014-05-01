@@ -1,12 +1,30 @@
 {
-  "name": "application-name",
+  "name": "chungman.kim",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.5.1",
-    "ejs": "*"
-  }
+    "express": "^3.5.1",
+    "ejs": "*",
+    "express.io": "^1.1.13",
+    "node": "0.0.0"
+  },
+  "description": "my personal website",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charliemikekilo/personal.git"
+  },
+  "keywords": [
+    "chungmankim"
+  ],
+  "author": "chungman kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charliemikekilo/personal/issues"
+  },
+  "homepage": "https://github.com/charliemikekilo/personal"
 }
