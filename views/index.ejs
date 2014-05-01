@@ -2,14 +2,211 @@
 <html>
   <head>
     <title><%= title %></title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/javascripts/client_side.js"></script>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- css -->
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/stylesheets/style.css" rel="stylesheet" media="screen">
+  <link href="/color/default.css" rel="stylesheet" media="screen">
+  <script src="/js/modernizr.custom.js"></script>
+  <link rel="shortcut icon" href="http://faviconist.com/icons/10751bf802017230d6d1ec22731f2ceb/favicon.ico" />
   </head>
   <body>
-    <h1>this is a blank node project by charliemikekilo</h1>
-  </body>
+  <div class="menu-area">
+      <div id="dl-menu" class="dl-menuwrapper">
+            <button class="dl-trigger">Open Menu</button>
+            <ul class="dl-menu">
+              <li>
+                <a href="#intro">Home</a>
+              </li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#spacer1">Contact</a></li>
+              <li><a href="#projects">Projects</a></li>
+            </ul>
+          </div><!-- /dl-menuwrapper -->
+  </div>  
+
+    <!-- intro area -->   
+    <div id="intro">
+      <div class="intro-text">
+        <div class="container">
+          <div class="row">
+          <div class="col-md-12">
+            <div class="brand">
+              <h1><a href="/">CHUNGMAN.KIM</a></h1>
+              <div class="line-spacer"></div>
+              <p><span>Junior Fullstack Web Developer</span></p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+   </div>
+    
+
+    
+    
+    <!-- About -->
+    <section id="about" class="home-section bg-white">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+           <h2>About Me</h2>
+           <p>A curious and highly motivated web developer with a strong interest in Javascript development.</p>
+          </div> <!--section-heading-->
+          </div> <!--col-->
+        </div> <!--row-->
+        <div class="row skillsrow">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="box-team wow bounceInDown">
+            <h3>Front-End</h3>
+            <ul class="technicalskills">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>jQuery</li>
+              <li>Twitter Bootstrap</li>
+              <li>Responsive Design</li>
+              <li>LESS/SASS</li>
+            </ul>
+          </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" data-wow-delay="0.3s">
+          <div class="box-team wow bounceInDown">
+            <h3>Programming</h3>
+            <ul class="technicalskills">
+              <li>Javascript
+                <ul>
+                  <li>Express, Angular.js, Node.js, Socket.io</li>
+                </ul>
+              </li>
+              <li>PHP with Code Igniter</li>
+              <li>Ruby on Rails</li>
+              <li>SQL - SQLite, MySQL Workbench</li>
+            </ul>
+          </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" data-wow-delay="0.5s">
+          <div class="box-team wow bounceInDown">
+            <h3>Tools & Concepts</h3>
+            <ul class="technicalskills">
+              <li>Git and GitHub</li>
+              <li>Firebase</li>
+              <li>AJAX/APIs</li>
+              <li>Cloud Server - Ubuntu 14.04</li>
+              <li>Wireframing</li>
+              <li>Object Oriented Programming</li>
+            </ul>
+          </div>
+                </div>
+        </div>        
+        <div class="row">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" data-wow-delay="0.5s">
+          <div class="box-team wow bounceInDown">
+            <h4>Currently Learning</h4>
+            <ul class="technicalskills current">
+              <li><a href="https://www.mongodb.org/">MongoDB</a></li>
+              <li><a href="http://www.webrtc.org/">WebRTC</a></li>
+              <li><a href="http://d3js.org/">D3.js</a></li>
+              <li><a href="http://processingjs.org/">Processing.js</a></li>
+            </ul>
+          </div>
+                </div>
+        </div>        
+      </div>    
+    </section>
+    
+    <!-- spacer -->   
+    <section id="spacer1" class="home-section">  
+           <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="color-light">
+              <ul class="social-network wow bounceInDown" data-wow-delay=".5s">
+                <li><a href="https://www.linkedin.com/in/chungmankim">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span></a>
+                </li>
+                <li><a href="https://github.com/charliemikekilo">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span></a>
+                </li>
+                <li><a href="https://dl.dropboxusercontent.com/u/6503036/ChungmanKimResume05012014.pdf">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-file-text fa-stack-1x fa-inverse"></i>
+                </span></a>
+                </li>
+              </ul>
+              <h5 class="wow bounceInDown" data-wow-delay=".5s">Bay Area, CA</h5>
+              <h5 class="wow bounceInDown" data-wow-delay=".5s">chung.man.kim@gmail.com</h5>
+              <h5 class="wow bounceInDown" data-wow-delay=".5s">(703) 943-7894</h5>
+            </div> <!--color-light-->
+          </div>        
+        </div> <!--row-->
+            </div> <!--container-->
+    </section>    
+    
+    <!-- Projects -->
+   <section id="projects" class="home-section bg-gray">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+           <h2>Projects</h2>
+           <p>Personal projects built using various languages and frameworks. More to come in the near future.</p>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="project-box wow bounceInDown" data-wow-delay="0.1s">
+            <i class="fa fa-comments-o fa-5x"></i>
+            <h4>literat.im</h4>
+            <p>A real-time chat application which allows users to send messages per keystroke. It is desktop and mobile device friendly.</p>
+            <a class="btn btn-primary" href="https://www.literat.im"><i class="fa fa-external-link fa-1x"></i> Visit literat.im</a>
+            <span class="description"><i class="fa fa-code fa-1x"></i>: Javascript, Node.js, Express.io, HTML, CSS, Bootstrap, jQuery</span>
+          </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" data-wow-delay="0.3s">
+          <div class="project-box wow bounceInDown" data-wow-delay="0.1s">
+            <i class="fa fa-users fa-5x"></i>
+            <h4>Dognate (Coding Dojo Group Project)</h4>
+            <p>A dog supply exchange website allowing future, current, and former dog owners to trade and/or donate dog supplies.</p>
+            <a class="btn btn-primary" href="https://www.dognate.org"><i class="fa fa-external-link fa-1x"></i> Visit Dognate</a>
+            <span class="description"><i class="fa fa-code fa-1x"></i>: Ruby on Rails, HTML, CSS, Bootstrap, jQuery</span>
+          </div>
+                </div>
+        </div><!--row-->
+    </div><!--container-->
+  </section>
+  
+   
+  
+    
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          Thank you for visiting my personal website
+        </div>
+      </div>    
+    </div>  
+  </footer>
+   
+   <!-- js -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/jquery.smooth-scroll.min.js"></script>
+  <script src="/js/jquery.dlmenu.js"></script>
+  <script src="/js/wow.min.js"></script>
+  <script src="/js/custom.js"></script>
+    
 </html>
