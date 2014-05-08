@@ -254,6 +254,14 @@ About
 	padding: 5px;
 }
 
+#aboutme {
+	margin-bottom: 30px;
+}
+
+.summary {
+	text-align: justify;
+}
+
 
 /* ================================
 Projects
